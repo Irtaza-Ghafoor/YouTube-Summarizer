@@ -53,14 +53,10 @@ Follow these steps to run NexusTube AI locally on your machine:
 
 # 1. **Create and activate a virtual environment:**
 python -m venv venv
-
- **On Windows:**
-
-venv\Scripts\activate
-
- **On Mac/Linux:**
- 
-source venv/bin/activate
+ * **On Windows:**
+   * venv\Scripts\activate
+ * **On Mac/Linux:**
+   * source venv/bin/activate
 
 # 2. **Install dependencies:**
 pip install -r requirements.txt
@@ -68,19 +64,16 @@ pip install -r requirements.txt
 # 3. **Configure Environment Variables:**
 Create a .env file in the root directory and add your Groq API key:
 
-GROQ_API_KEY=your_actual_groq_api_key_here
+* GROQ_API_KEY=your_actual_groq_api_key_here
 
 # 4.**Run the Streamlit Application:**
 streamlit run app.py
 
 # 📦 Requirements (requirements.txt)
-streamlit
-
-youtube-transcript-api
-
-groq
-
-python-dotenv
+* streamlit
+* youtube-transcript-api
+* groq
+* python-dotenv
 
 # **💡 How to Use**
 Paste any valid YouTube Video URL into the sidebar input.
